@@ -1,0 +1,8 @@
+<div *ngIf="usuario" class="detalle-container">
+  <h3>Detalle del Usuario</h3>
+  <p><strong>Nombre:</strong> {{ usuario.nombre }}</p>
+  <p><strong>Correo:</strong> {{ usuario.correo }}</p>
+</div>
+<div *ngIf="!usuario" class="detalle-container">
+  <p>Selecciona un usuario para ver su detalle.</p>
+</div>

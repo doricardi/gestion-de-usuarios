@@ -1,0 +1,33 @@
+.detalle-panel {
+  max-width: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid #6f4e37;
+  border-radius: 12px;
+  background-color: #fff3e6;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.no-user {
+  text-align: center;
+  color: #888;
+  font-style: italic;
+}
+:host {
+  display: block;
+  background-color: #d7bfa3; /* mismo marrón claro */
+  color: #3b2508;
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  max-width: 500px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+p {
+  background-color: #f5e7d0;
+  padding: 10px;
+  border-radius: 8px;
+}

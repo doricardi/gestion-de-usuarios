@@ -1,0 +1,52 @@
+.lista-usuarios {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+/* Tarjeta de cada usuario */
+.usuario-card {
+  width: 250px;
+  padding: 15px;
+  background-color: #fff8f0;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+  text-align: center;
+}
+
+.usuario-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 3px 6px 12px rgba(0, 0, 0, 0.2);
+}
+:host {
+  display: block;
+  background-color: #d7bfa3; /* marrón claro */
+  color: #3b2508;
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  max-width: 500px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  background-color: #f5e7d0;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  transition: background-color 0.3s;
+}
+
+li:hover {
+  background-color: #e3cba8;
+  cursor: pointer;
+}

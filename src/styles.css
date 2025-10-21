@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+/* Fondo general de la aplicación */
+body {
+  background-color: #f9f3e7; /* tono crema suave */
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: #4b2e05; /* marrón oscuro para el texto */
+  margin: 0;
+  padding: 0;
+}
+
+/* Título principal */
+h1 {
+  text-align: center;
+  color: #5a381e; /* marrón más oscuro */
+  margin-top: 30px;
+  font-size: 2em;
+}
